@@ -55,18 +55,26 @@ Select a station from your saved list to remove it (this also deletes associated
 #### **Save and exit:**  
 Apply your changes and close the options menu.
 
-## Examples
+## Sensor Examples
 Below are two examples showing upcoming Motis public transport departures in Home Assistant:
 
 <img src="images/example_departures.png" alt="next departures" width="200"/>
 <img src="images/example_hauptbahnhof.png" alt="Detail Karlsruhe Hauptbahnhof" width="250"/>
 
+## Cards
+With this integration, two types of Home Assistant cards can be created to display upcoming departures.
+
+### Custom Card
+<img src="images/custom_card.png" alt="Custom Card" width="300"/>
+
+For instructions on using the custom card, see the [Motis Card repository](https://github.com/HerrLevin/homeassistant-motis-card).
+
 ## Example Frontend Card
 Using the markdown card in Home Assistant an overview like this can be generated:
 
-<img src="images/markdown.png" alt="RNV Logo" width="300"/>
+<img src="images/markdown.png" alt="Markdown Card" width="300"/>
 
-Use this code to replicate the card in Home Assistant. You only have to change the heading and your RNV sensor names:
+Use this code to replicate the card in Home Assistant. You only have to change the heading and your Motis sensor names:
 ```
 type: markdown
 content: |
@@ -110,7 +118,7 @@ content: |
 
 For a German Version:
 
-<img src="images/markdown_german.png" alt="RNV Logo" width="300"/>
+<img src="images/markdown_german.png" alt="Markdown Card in German" width="300"/>
 
 ```
 type: markdown
